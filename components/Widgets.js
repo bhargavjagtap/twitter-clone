@@ -14,7 +14,7 @@ function Widgets ({trendingResults, followResults})  {
                 </div>
             </div>
             <div className="pt-2 space-y-3 text-[#d9d9d9] bg-[#15181c] rounded-xl w-11/12 xl:w-9/12">
-                <h4 className="px-4 text-xl font-bold">What's happening</h4>
+                <h4 className="px-4 text-xl font-bold">What&apos;s happening</h4>
                 {trendingResults.map((result, index) =>(
                     <Trending key={index} result={result}/>
                 ))} 

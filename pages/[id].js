@@ -14,6 +14,7 @@ import {
   import Sidebar from "../components/Sidebar";
   import Widgets from "../components/Widgets";
   import Post from "../components/Post";
+  import Login from "../components/Login";
   import { db } from "../firebase.config";
   import { ArrowLeftIcon } from "@heroicons/react/solid";
   import Comment from "../components/Comment";

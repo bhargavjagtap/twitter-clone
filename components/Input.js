@@ -88,7 +88,6 @@ const Input = () => {
         <div className={`${selectedFile && "pb-7"} ${input && "space-y-2.5"}`}>
           <textarea
             value={input}
-            onChange={(e) => setInput(e.target.value)}
             rows="2"
             placeholder="What's happening ?"
             onChange={(e) => setInput(e.target.value)}
